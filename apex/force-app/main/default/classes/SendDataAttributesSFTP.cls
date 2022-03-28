@@ -20,7 +20,7 @@ public class SendDataAttributesSFTP {
 
         JSONGenerator gen = JSON.createGenerator(true);
         gen.writeStartObject();
-            gen.writeStringField('code', 'YOUR_CODE');
+            gen.writeStringField('code', 'YOUR_SECRET');
             gen.writeStringField('timestamp', formatedDt);
         gen.writeEndObject();
         
