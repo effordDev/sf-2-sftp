@@ -10,7 +10,7 @@ const {
 
 async function connect_basic() {
 	
-	const client = new Client('bcfs-client');
+	const client = new Client('client');
 
 	await client.connect({ 
 		host: FTP_HOST, 
